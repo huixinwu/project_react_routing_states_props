@@ -1,0 +1,89 @@
+/* All Pages */
+a{
+  text-decoration: none;
+  color: black;
+}
+.App {
+  text-align: center;
+}
+.page{
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 1px;
+}
+h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intropara{
+  padding: 20px;
+  padding-top: 0px;
+}
+
+/* card */
+.container{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  width: 250px;
+  margin: .45em;
+  border-radius: 10px;
+  background-color: salmon;
+  transition: ease-in-out 200ms;
+}
+.card img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card:hover{
+  box-shadow: 5px 5px 10px 1px gray;
+  transform: scale(1.02);
+}
+.menu{
+  margin-top: -.6em;
+  height: 40px;
+}
+.title{
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 1.5em;
+}
+.description{
+  margin: 1em;
+  height: 150px;
+}
+
+/* navbar */
+nav{
+  display: flex;
+}
+.navbarhome{
+  width: 100%;
+}
+.homebtn img{
+  height: 150px;
+  transition: ease-in-out 150ms;
+}
+.homebtn img:hover{
+  transform: scale(1.04);
+}
+.navbaritems{
+  padding-top: 118px;
+  width: 100%;
+  display: flex;
+}
+.navbtn{
+  width: 100px;
+}
+.navbtn img{
+  height: 18px;
+  transition: ease-in-out 150ms;
+}
+.navbtn img:hover{
+  transform: scale(1.15);
+}
+hr{
+  margin: 1em;
+  margin-top: 0.5em;
+}
